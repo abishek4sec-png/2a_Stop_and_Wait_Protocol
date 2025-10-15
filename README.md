@@ -7,8 +7,10 @@ To write a python program to perform stop and wait protocol
 3. The receiver (server) binds to a port and waits for connection; the sender (client) connects to it.
 4. The sender takes input data from the user and sends it to the receiver.
 5. The receiver receives the data, displays it, and sends back an acknowledgment message (“Acknowledgement Recived”).
-6. The sender waits to receive this acknowledgment:If acknowledgment is received → continue to send the next data.If no acknowledgment → close the connection and stop.
-7. Repeat until all data is sent, then close the connection on both sides.
+6. The sender waits to receive this acknowledgment:If acknowledgment is received
+7.  → continue to send the next data.If no acknowledgment
+8.  → close the connection and stop.
+9. Repeat until all data is sent, then close the connection on both sides.
 ## PROGRAM
 ## Client Side:
 ```
